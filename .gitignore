@@ -1,0 +1,20 @@
+﻿# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Support folder (runtime, models, venv - not tracked)
+anpt/support/
+support/
+
+# Output files
+*.mp4
+*.wav
+*.mkv
+output/
+
+# Temp
+*.tmp
+*.log
