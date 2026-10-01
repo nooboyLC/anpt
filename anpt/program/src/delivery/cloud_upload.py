@@ -168,7 +168,7 @@ def upload_to_tmpfiles(dst: Path) -> str | None:
 
 def trigger_file_download(dst: Path):
     """Dispatches file download via GDrive, Colab browser, Gofile CDN, TmpFiles CDN, or local explorer."""
-    from core.logger import log_step, current_timestamp_str, fmt_bytes
+    from core.logger import log_step, current_timestamp_str
     dst_str = str(dst.resolve())
     is_gdrive = "/content/drive/" in dst_str or "MyDrive" in dst_str
 
